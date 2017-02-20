@@ -69,6 +69,7 @@ class Input extends React.Component {
         }
 
         this.props.onSelect();
+        this.blur();
         break;
       case 9: // TAB
         if (!this.props.ignoreTab) {
